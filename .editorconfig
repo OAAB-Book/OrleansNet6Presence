@@ -1,0 +1,9 @@
+﻿[*.cs]
+
+# CS8603: Possible null reference return.
+dotnet_diagnostic.CS8603.severity = none
+
+[*.sh]
+indent_size = 2
+indent_style = space
+end_of_line = lf

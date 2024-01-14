@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains.Interfaces", "src\Grains.Interfaces\Grains.Interfaces.csproj", "{913E3044-2ACC-453A-BFF3-0E2279DA1D5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains", "src\Grains\Grains.csproj", "{8767D710-0FFA-43F7-ABFC-9D9DAB5A55DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadGenerator", "src\LoadGenerator\LoadGenerator.csproj", "{1370F803-EAB6-4D85-A695-CD4E4B84A875}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerWatcher", "src\PlayerWatcher\PlayerWatcher.csproj", "{DD5C4AA1-669D-4B81-B1F6-2134389BF6F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B304CB4B-6A49-4D6E-87E6-35B56441E382}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silo", "src\Silo\Silo.csproj", "{8479D0B9-371B-43D8-A8FC-2AD5F34FB651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{913E3044-2ACC-453A-BFF3-0E2279DA1D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913E3044-2ACC-453A-BFF3-0E2279DA1D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913E3044-2ACC-453A-BFF3-0E2279DA1D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913E3044-2ACC-453A-BFF3-0E2279DA1D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8767D710-0FFA-43F7-ABFC-9D9DAB5A55DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8767D710-0FFA-43F7-ABFC-9D9DAB5A55DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8767D710-0FFA-43F7-ABFC-9D9DAB5A55DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8767D710-0FFA-43F7-ABFC-9D9DAB5A55DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1370F803-EAB6-4D85-A695-CD4E4B84A875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1370F803-EAB6-4D85-A695-CD4E4B84A875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1370F803-EAB6-4D85-A695-CD4E4B84A875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1370F803-EAB6-4D85-A695-CD4E4B84A875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5C4AA1-669D-4B81-B1F6-2134389BF6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5C4AA1-669D-4B81-B1F6-2134389BF6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5C4AA1-669D-4B81-B1F6-2134389BF6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5C4AA1-669D-4B81-B1F6-2134389BF6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8479D0B9-371B-43D8-A8FC-2AD5F34FB651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8479D0B9-371B-43D8-A8FC-2AD5F34FB651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8479D0B9-371B-43D8-A8FC-2AD5F34FB651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8479D0B9-371B-43D8-A8FC-2AD5F34FB651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
